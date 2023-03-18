@@ -11,7 +11,7 @@ class IndexController extends Controller
 {
     public function index()
     {
-        // banner
+        // banners
         $data = getapiresponse(api_url() . 'get-homepage-section-banners');
 
         if (!empty($data)) {
